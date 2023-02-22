@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body {
+  background-image: url(/IMG/pex.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+fieldset {
+  padding-top: 10px;
+  border: 1px solid #666;
+  border-radius: 8px;
+  margin-top: 160px;
+  box-shadow: 0 0 10px #666;
+  width: 1200px;
+  margin-left: 100px;
+}
+
+.h1-top {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  margin-top: 100px;
+  position: absolute;
+  margin-left: 475px;
+  margin-top: -120px;
+  color: white;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.logo {
+  position: absolute;
+  height: 200px;
+  width: 380px;
+  margin-left: 225px;
+  margin-top: -200px;
+
+}
+.button {
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  position: absolute;
+  background-color: grey;
+  border-radius: 15px;
+  color: black;
+  margin-left: -11px;
+  margin-top: 63px;
+  border: 1px solid black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 150px;
+}
+
+.button:hover {
+  background-color: green;
+}
+
+.reset:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.reset {
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: grey;
+  border-radius: 15px;
+  color: black;
+  border: 1px solid black;
+  margin-left: 600px;
+  width: 150px;
+  margin-top: 3px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.reset:active {
+  background-color: grey;
+  transform: translateY(4px);
+}
+
+
+.hr-main {
+  margin-top: 150px;
+  width: 645px;
+  margin-left: 20px;
+}
+
+
+
+
+.STID {
+  height: 20px;
+  width: 200px;
+  margin-left: 60px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+
+.lblstudnym{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: 18px;
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 20px;
+}
+
+.lblMnym{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: 18px;
+  margin-top: 95px;
+  margin-left: 25px;
+  position: absolute;
+}
+
+.lblLnym{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: 18px;
+  margin-top: 130px;
+  margin-left: 40px;
+  position: absolute;
+}
+
+fieldset .lblID {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: 18px;
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 36px;
+}
+
+fieldset .Fnym {
+  height: 20px;
+  width: 200px;
+  margin-top: 40px;
+  border-radius: 5px;
+  margin-left: 47px;
+  text-align: center;
+}
+
+fieldset .Mnym {
+  height: 20px;
+  width: 200px;
+  margin-top: 1px;
+  position: absolute;
+  border-radius: 5px;
+  margin-left: 48px;
+  text-align: center;
+}
+/**************************************************************EDITED***********************************/
+fieldset .Lnym {
+  height: 20px;
+  width: 200px;
+  margin-top: 2px;
+  position: absolute;
+  border-radius: 5px;
+  margin-left: 58px;
+  text-align: center;
+}
+
+fieldset .lblmd {
+  margin-top: 70px;
+  position: absolute;
+  border-radius: 5px;
+  margin-left: -292px;
+}
+
+
+fieldset .text2 {
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 150px;
+}
+fieldset .text3 {
+  width: 150px;
+  height: 25px;
+  margin-top: 25px;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+fieldset .courses {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 420px;
+  position: absolute;
+}
+fieldset .sub {
+  width: 150px;
+  height: 25px;
+  margin-top: 2px;
+  margin-left: 18px;
+  border-radius: 5px;
+  position: absolute;
+}
+fieldset .subject {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: 18px;
+  margin-top: 60px;
+  margin-left: 420px;
+  position: absolute;
+}
+fieldset .final {
+  height: 20px;
+  width: 200px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 185px;
+  text-align: center;
+}
+
+
+fieldset .pre {
+  height: 20px;
+  width: 200px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 45px;
+  text-align: center;
+}
+fieldset .lblgmark {
+  margin-top: -125px;
+  position: absolute;
+}
+fieldset .midterm {
+  height: 20px;
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-left: 185px;
+  text-align: center;
+  
+}
+
+fieldset .lblfinal {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: 18px;
+  margin-left: 35px;
+  position: relative;
+  margin-top: 8px;
+  position: absolute;
+}
+
+/*-----------RESULT--------------*/
+.result {
+  width: 570px;
+  margin-left: 8px;
+  margin-top: 220px;
+  display: none;
+}
+.printed {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: -19px;
+  width: 150px;
+  color: rgb(0, 0, 0);
+}
+.nym1 {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: -19px;
+  width: 400px;
+  color: rgb(0, 0, 0);
+}
+.curs1 {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: -19px;
+  width: 400px;
+  color: rgb(0, 0, 0);
+}
+.sub1 {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: -19px;
+  width: 400px;
+  color: rgb(0, 0, 0);
+}
+.final1 {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: -19px;
+  width: 400px;
+  color: rgb(0, 0, 0);
+}
+.gmark {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: -19px;
+  width: 400px;
+  color: rgb(0, 0, 0);
+}
+.equa {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: -19px;
+  width: 400px;
+  color: rgb(0, 0, 0);
+}
+/*------------------------------------*/
+
+.contain {
+  border: 1px solid #4f4f4f;
+  background-color: rgba(79, 79, 79, 0.5);
+  height: 280px;
+  width: 520px;
+  position: relative;
+  margin-left: 670px;
+  margin-top: -292px;
+  border-radius: 8px;
+}
+.STID1 {
+  margin-top: -200px;
+  position: absolute;
+}
+.lblcurs {
+  margin-top: -160px;
+  position: absolute;
+}
+.lblnym1 {
+  margin-top: -170px;
+  position: absolute;
+}
+.lblsub1 {
+  margin-top: -150px;
+  position: absolute;
+}
+.text-result {
+  margin-top: 120px;
+  margin-left: 220px;
+  display: block;
+}
+.lblequa {
+  position: absolute;
+  margin-top: -110px;
+}
+.text-final {
+  margin-top: -140px;
+  position: absolute;
+}
+
+fieldset .lblpre{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: 18px;
+  margin-left: 30px;
+  
+}
+
+fieldset .lblmid{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 8px;
+  position: absolute;
+}
+
+.load {
+  height: 200px;
+  width: 200px;
+  margin-left: 180px;
+  margin-top: 40px;
+  position: absolute;
+  display: none;
+}
+
+.pop-up {
+  animation-name: pop-up;
+  animation-duration: 1s;
+}
+
+@keyframes pop-up {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}

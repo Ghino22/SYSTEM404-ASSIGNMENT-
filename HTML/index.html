@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SYSTEM404</title>
+    <link rel="stylesheet" href="/CSS/style.css"/>
+    <script src="/JS/function.js"></script>
+  </head>
+  <body>
+    <img class="logo" src="/IMG/logo14.png" alt=""/>
+    <center><h1 class="h1-top">STUDENT GRADING SYSTEM</h1></center>
+    <fieldset>
+      <legend><h2>Student record</h2></legend>
+      <form onsubmit="return allfunct()">
+
+        
+        <label class="lblstudnym">Student Name:<input type="text" class="Fnym" id="nym" name="First-Name" placeholder="First-Name" required></label>
+        <label class="lblMnym">Middle Name:<input type="text" class="Mnym" id="MN" name="Middle-name" placeholder="Middle-Name" required></label>
+        <label class = "lblLnym">Last Name:<input type="text" class="Lnym" id="LN" name="Last-Name" placeholder="Last-Name" required></label>
+        <label class="lblID">Student-ID:<input type="number" class="STID" id="STID" name="STUDENT-ID" placeholder="Enter ID no." required></label>
+        <br/>
+
+        <label class="courses"
+          >Course:
+          <select id="course" class="text3" required>
+            <option value="0" placeolder="select">Select</option>
+            <option value="1">DICT</option>
+            <option value="2">Arts and Sciences.</option>
+            <option value="3">Criminal Justice.</option>
+            <option value="4">Education.</option>
+            <option value="5">BS in Nursing.</option>
+          </select></label>
+        <br/>
+        <label class="subject">Subject:
+          <select id="sub" class="sub" required>
+            <option value="0">Select</option>
+            <option value="1">Math</option>
+            <option value="2">English.</option>
+            <option value="3">Web Technology.</option>
+            <option value="4">Foreign Language.</option>
+            <option value="5">Networking.</option>
+          </select></label>
+        <hr class="hr-main"/>
+        <br/>   
+      
+        <label class ="lblpre">Prelim Grade:</label>
+        <input type="number" class="pre" id="pregrade" name="prelim" placeholder="Enter your Prelim grade." required /></label>
+        <br/>
+        <label class = "lblmid">Midterm Grade:</label>
+        <input type="number" class="midterm" id="midgrade" name="midterm" placeholder="Enter your Midterm grade." required /></label>
+        <br/>
+        <label class="lblfinal">Final Grade:</label>
+        <input type="numbertext" class="final" id="figrade" name="final" placeholder="Enter your Final grade." required /></label>
+        <button class="button" type="submit">Submit</button>
+      </form>
+
+      <div class="contain">
+        <img class="load" id="load" src="/IMG/7SIe-unscreen.gif" alt="" />
+        <h2 class="text-result" id="text-result">RESULT</h2>
+        <div id="result" class="result pop-up">
+          <label class="STID1">Student-ID:
+            <p id="STID1" class="printed"></p></label>
+          <label class="lblnym1">Student Name:<p id="nym1" class="nym1"></p></label>
+          <br/>
+          <label class="lblcurs">Course:
+            <p id="curs1" class="curs1"></p></label>
+          <br/>
+          <label class="lblsub1">Subject:
+            <p id="sub1" class="sub1"></p></label>
+          <br/>
+          <label class="text-final">Final Grades:
+            <p id="final1" class="final1"></p></label>
+          <br/>
+          <label class="lblgmark">Grades Remark:<p id="gmark" class="gmark"></p></label>
+          <br/>
+          <label class="lblequa">Your equivalent Grade:
+            <p class="equa" id="equa"></p></label>
+        </div>
+      </div>
+      <br/>
+      <hr/>
+      <button class="reset" onclick="popreset()">Reset</button>
+    </fieldset>
+  </body>
+</html>
